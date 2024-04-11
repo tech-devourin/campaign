@@ -1,5 +1,5 @@
 import axios, { AxiosRequestConfig, AxiosResponse } from 'axios';
-import https from 'https'
+import https from 'https';
 
 axios.defaults.headers.common.Accept = 'application/json';
 axios.defaults.timeout = 12000;
@@ -105,9 +105,6 @@ smPi9WIsgtRqAEFQ8TmDn5XpNpaYbg==
 -----END CERTIFICATE-----
 
 ` })
-      // headers: {
-      //   Authorization: 'Bearer YOUR_TOKEN',
-      // },
     };
   }
 
